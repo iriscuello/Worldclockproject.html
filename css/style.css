@@ -21,11 +21,13 @@ h1 {
 
 .seoul {
   font-size: 30px;
+  margin: 20px 0px 0px;
 }
 
 .time {
-  font-size: 36px;
+  font-size: 50px;
   font-weight: bold;
+  margin: 20px 0px 0px;
 }
 .date {
   display: flex;
