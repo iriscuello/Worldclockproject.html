@@ -1,3 +1,5 @@
 let shangElement = document.querySelector("#city-shang");
 let shangDateElement = document.querySelector(".date");
-shangDateElement.innerHTML = "Happy";
+let shangTimeElement = document.querySelector(".time");
+shangDateElement.innerHTML = moment().format("MMMM Do YYYY");
+shangTimeElement.innerHTML = moment.().format("h:m:s A")
