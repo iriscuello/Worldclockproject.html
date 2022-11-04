@@ -1,13 +1,13 @@
 body {
   background: #f9f7fe;
   text-align: center;
-  color: white;
+  color: black;
 }
 
-h1 (
-    font-size: 30px;
-) .la {
-  font-size: ;
+h1 {
+  font-size: 30px;
+}
+.city {
 }
 .container {
   background: white;
@@ -16,10 +16,15 @@ h1 (
   margin: 0 auto;
   padding: 20px;
   border-radius: 8px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+  padding: 40px;
 }
 
 #cities {
-  width: 550px;
+  width: 100%;
   font-size: 20px;
   padding: 7px;
 }
