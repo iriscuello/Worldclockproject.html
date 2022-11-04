@@ -1,5 +1,25 @@
 body {
-  background: grey;
+  background: #f9f7fe;
   text-align: center;
   color: white;
+}
+
+h1 (
+    font-size: 30px;
+) .la {
+  font-size: ;
+}
+.container {
+  background: white;
+  color: black;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#cities {
+  width: 550px;
+  font-size: 20px;
+  padding: 7px;
 }
