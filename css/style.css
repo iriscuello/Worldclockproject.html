@@ -21,10 +21,12 @@ h1 {
   padding: 30px 0px;
 }
 
+.city #shang {
+  border-bottom: 1px dashed;
+}
 .shang {
   font-size: 30px;
   margin: 20px 0px 0px;
-  border-bottom: 1px dashed;
 }
 
 .seoul {
