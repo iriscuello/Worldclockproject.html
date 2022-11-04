@@ -6,16 +6,34 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .city {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shang {
+  font-size: 30px;
+  margin: 20 px 0px 0px;
+}
+
+.seoul {
+  font-size: 30px;
 }
 
 .time {
   font-size: 36px;
   font-weight: bold;
+}
+.date {
+  display: flex;
+  opacity: 0.6;
+}
+.time small {
+  font-size: 20px;
+  vertical-align: middle;
 }
 .container {
   background: white;
