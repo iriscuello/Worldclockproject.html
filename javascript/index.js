@@ -4,7 +4,7 @@ let shangTimeElement = document.querySelector(".time");
 let shangTime = moment().tz("Asia/Shanghai");
 
 shangDateElement.innerHTML = shangTime.format("MMMM Do, YYYY");
-shangTimeElement.innerHTML = shangTime.format("h:m:ss [<small>]a[</small>]");
+shangTimeElement.innerHTML = shangTime.format("h:mm:ss [<small>]a[</small>]");
 
 let seoulElement = document.querySelector("#city-seoul");
 let seoulDateElement = document.querySelector(".date");
