@@ -7,7 +7,7 @@ function realTime() {
   shangDateElement.innerHTML = shangTime.format("MMMM Do, YYYY");
   shangTimeElement.innerHTML = shangTime.format("h:mm:ss [<small>]a[</small>]");
 
-  let seoulElement = document.querySelector("#city-seoul");
+  let seoulElement = document.querySelector("#citySeoul");
   let seoulDateElement = document.querySelector(".date");
   let seoulTimeElement = document.querySelector(".time");
   let seoulTime = moment().tz("Asia/Seoul");
