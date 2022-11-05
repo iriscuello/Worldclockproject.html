@@ -16,5 +16,26 @@ function realTime() {
   seoulTimeElement.innerHTML = seoulTime.format("h:mm:ss [<small>]a[</small>]");
 }
 
+function updateCity(event) {
+  let cityTimeZone = event.target.value;
+  let cityTime = moment().tz(cityTimeZone);
+  let citiesElement = document.querySelector("#cities");
+  citiesElement.innerHTML = cityTimeZone;
+  citiesElement = `
+  <div>
+          <div>
+            <h2 >${cityTimeZone}</h2>
+            <div class="date">${cityTime.format("MMMM Do, YYYY")}</div>
+          </div>
+          <div class="time">${cityTime.format(
+            "h:mm:ss"
+          )} <SMALL>${cityTime.format("A")}</SMALL></div>
+        </div>
+        `;
+}
 realTime();
 setInterval(realTime, 1000);
+
+let citiesSelectElement = document.querySelector("#options");
+
+citiesSelectElement.addEventListener("change", updateCity);
