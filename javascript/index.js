@@ -18,7 +18,7 @@ function realTime() {
 
 function updateCity(event) {
   let cityTimeZone = event.target.value;
-  let cityName = cityTimeZone.replace("_", " ").split("/")[1];
+  let cityName = cityTimeZone.split("/")[1];
   let cityTime = moment().tz(cityTimeZone);
   let citiesElement = document.querySelector("#cities");
   citiesElement.innerHTML = `
