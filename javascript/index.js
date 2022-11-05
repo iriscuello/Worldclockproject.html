@@ -12,4 +12,4 @@ let seoulTimeElement = document.querySelector(".time");
 let seoulTime = moment().tz("Asia/Seoul");
 
 seoulDateElement.innerHTML = seoulTime.format("MMMM Do, YYYY");
-seoulTimeElement.innerHTML = seoulTime.format("h:m:ss [<small>]a[</small>]");
+seoulTimeElement.innerHTML = seoulTime.format("h:mm:ss [<small>]a[</small>]");
