@@ -42,7 +42,7 @@ function updateCity(event) {
             ${cityTime.format("h:mm:ss")} <SMALL>${cityTime.format("A")}</SMALL>
           </div>
         </div>
-        <a href="/">Home</a>`;
+        <a href="/" class="home" >Home</a>`;
 }
 
 realTime();
