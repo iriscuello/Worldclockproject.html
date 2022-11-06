@@ -41,6 +41,7 @@ h2 {
 #city-shang {
   border-bottom: 1px dashed;
 }
+
 .shang {
   font-size: 30px;
   margin: 20px 0px 0px;
@@ -50,6 +51,14 @@ h2 {
   font-size: 30px;
   margin: 20px 0px 0px;
   display: flex;
+}
+
+.athens {
+  font-size: 30px;
+}
+
+#city-athens {
+  border-bottom: 1px dashed;
 }
 
 .time {
