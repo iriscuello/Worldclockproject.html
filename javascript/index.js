@@ -22,6 +22,18 @@ function realTime() {
       "h:mm:ss [<small>]a[</small>]"
     );
   }
+
+  let athensElement = document.querySelector("#city-athens");
+  if (athensElement) {
+    let athensDateElement = athensElement.querySelector(".date");
+    let athensTimeElement = athensElement.querySelector(".time");
+    let athensTime = moment().tz("Europe/Athens");
+
+    athensDateElement.innerHTML = athensTime.format("MMMM Do, YYYY");
+    athensTimeElement.innerHTML = athensTime.format(
+      "h:mm:ss [<small>]a[</small>]"
+    );
+  }
 }
 
 function updateCity(event) {
@@ -42,7 +54,7 @@ function updateCity(event) {
             ${cityTime.format("h:mm:ss")} <SMALL>${cityTime.format("A")}</SMALL>
           </div>
         </div>
-        <a href="/" class="home">Home</a>`;
+        <a href="/" class=>Home</a>`;
 }
 
 realTime();
