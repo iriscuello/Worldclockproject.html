@@ -3,6 +3,11 @@ body {
   text-align: center;
   color: black;
   padding-top: 50px;
+  background: linear-gradient(
+    179.4deg,
+    rgb(253, 240, 233) 2.2%,
+    rgb(255, 194, 203) 96.2%
+  );
 }
 
 h1 {
@@ -23,13 +28,18 @@ h2 {
 }
 
 .container {
-  background: white;
+  background: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
+    radial-gradient(
+      91% 146%,
+      rgba(255, 255, 255, 0.5) 47%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
   color: black;
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 5px 5px 5px 5px #edeff794;
+  box-shadow: 10px 10px 20px rgba(170, 168, 168, 0.2);
 }
 
 .city {
