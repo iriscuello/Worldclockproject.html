@@ -22,6 +22,17 @@ h2 {
   font-size: 20px;
   padding: 7px;
 }
+
+.container {
+  background: white;
+  color: black;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px 5px #edeff794;
+}
+
 .city {
   display: flex;
   justify-content: space-between;
@@ -56,14 +67,9 @@ h2 {
   font-size: 20px;
   vertical-align: middle;
 }
-.container {
-  background: white;
-  color: black;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 5px 5px 5px 5px #edeff794;
+
+.home {
+  text-align: left;
 }
 
 footer {
